@@ -1,0 +1,38 @@
+/********************************tags******************************************/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    grid-column: 1/-1;
+    background-color: #a3080c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*********************************id*******************************************/
+#content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2;
+    
+}
+
+/*******************************class******************************************/
+
+header > img {
+    width: 80px;
+    height: auto;
+}
+
+.hero{
+    background-color: #ffffff;
+}
+
+
+.hero, .hero-image {
+    justify-self: center;
+    align-self: center;
+}
